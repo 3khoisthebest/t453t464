@@ -1,0 +1,311 @@
+/* Hey skid or contributer this is the Themes file.
+ if you are looking for Main Css file its in "styles.css"*/
+
+/* Default Theme */
+body {
+  --background: #1a2023;
+  --textcolor: #fff;
+  --button: rgb(29, 130, 255);
+  --buttonhover: rgba(29, 130, 255, 0.8);
+  --alt: #22282b;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Theme */
+body.dark {
+  --background: #222222;
+  --textcolor: #ffffff;
+  --button: #444444;
+  --alt: #444444;
+  --logo: #e6e6e6;
+  --buttonhover: #444444;
+}
+
+body.ghost {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    153deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(149, 43, 43, 1) 100%
+  );
+  --textcolor: #5e5e5e;
+  --button: rgb(90, 48, 48);
+  --logo: white;
+  --alt: #313131;
+  --buttonhover: rgb(59, 31, 31);
+}
+
+/* Red Theme */
+body.two {
+  --background: #212f3c;
+  --textcolor: #ffffff;
+  --button: #ff0f00;
+  --logo: #ff0f00;
+  --alt: #2e3f4e;
+  --buttonhover: #ff0f00;
+}
+
+/* Pink Theme */
+body.pink {
+  background-color: pink;
+  color: #000;
+}
+
+body.pink .native,
+body.pink #randomtext,
+body.pink .navtext {
+  color: #000; /* Adjust colors for blue theme */
+}
+
+body.pink .button,
+body.pink input:checked + .slider {
+  background-color: #fff; /* Adjust background color for blue theme */
+  color: #000; /* Text color for blue theme */
+}
+
+body.pink #themeSelect,
+body.pink #premadecloaks {
+  background-color: #fff; /* Adjust background color for blue theme */
+  color: black;
+}
+
+body.pink .navbar a:hover {
+  background-color: #ffffff; /* Adjust navbar link hover background color for blue theme */
+}
+
+body.pink .button:hover {
+  color: #000; /* Text color on hover for blue theme */
+}
+body.pink input:checked {
+  background-color: #fff;
+}
+body.pink input[type="settings"]:focus {
+  border-color: white;
+  box-shadow: 0 0 8px 0 white;
+}
+body.pink .rwd-table a {
+  color: #000000;
+}
+body.pink .rwd-table th,
+body.pink .rwd-table td {
+  background-color: rgb(255, 209, 217);
+}
+body.pink td {
+  color: #000;
+}
+body.pink h1,
+body.pink h2,
+body.pink h3,
+body.pink a,
+body.pink h4,
+body.pink h5 {
+  color: #000;
+}
+body.pink #randomText {
+  color: #000;
+}
+body.pink .card {
+  background-color: rgb(255, 209, 217);
+}
+body.pink #gamename,
+body.pink #fullscreengame {
+  color: #000;
+}
+/* Oled Theme */
+body.oled {
+  background-color: #000;
+}
+body.oled h1,
+body.oled h2,
+body.oled h3,
+body.oled a,
+body.oled h4,
+body.oled h5 {
+  color: #fff;
+}
+body.oled .native,
+body.oled #randomtext,
+body.oled .navtext {
+  color: #fff; /* Adjust colors for blue theme */
+}
+body.oled #randomText {
+  color: #ffffff;
+}
+body.oled .button,
+body.oled input:checked + .slider {
+  background-color: #1b1b1b; /* Adjust background color for blue theme */
+  color: #ffffff; /* Text color for blue theme */
+}
+body.oled .button:hover {
+  color: #ffffff; /* Text color on hover for blue theme */
+}
+body.oled input:checked {
+  background-color: #fff;
+}
+body.oled input[type="settings"]:focus {
+  border-color: white;
+  box-shadow: 0 0 8px 0 white;
+}
+body.oled #themeSelect,
+body.oled #premadecloaks {
+  background-color: #1b1b1b; /* Adjust background color for blue theme */
+  color: #fff;
+}
+body.oled .navbar a:hover {
+  background-color: #1b1b1b; /* Adjust navbar link hover background color for blue theme */
+}
+body.oled .rwd-table a {
+  color: #ffffff;
+}
+body.oled .rwd-table th,
+body.oled .rwd-table td {
+  background-color: rgb(56, 56, 56);
+}
+body.oled td {
+  color: #ffffff;
+}
+body.oled::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+body.oled .card {
+  background-color: #1b1b1b;
+}
+body.purple {
+  background: #10002b;
+}
+body.purple .button,
+body.purple input:checked + .slider {
+  background-color: #5a189a; /* Adjust background color for blue theme */
+  color: #ffffff; /* Text color for blue theme */
+}
+body.purple .button:hover {
+  color: #ffffff; /* Text color on hover for blue theme */
+}
+body.purple h1,
+body.purple h2,
+body.purple h3,
+body.purple a,
+body.purple h4,
+body.purple h5 {
+  color: #fff;
+}
+
+body.purple #themeSelect,
+body.purple #premadecloaks {
+  background-color: #5a189a; /* Adjust background color for blue theme */
+  color: #fff;
+}
+body.purple .navbar a:hover {
+  background-color: #5a189a; /* Adjust navbar link hover background color for blue theme */
+}
+body.purple .native,
+body.purple #randomtext,
+body.purple .navtext {
+  color: #5a189a; /* Adjust colors for blue theme */
+}
+body.purple #randomText {
+  color: #5a189a;
+}
+body.purple input[type="settings"]:focus {
+  border-color: #5a189a;
+  box-shadow: 0 0 8px 0 #5a189a;
+}
+body.purple .rwd-table a {
+  color: #ffffff;
+}
+body.purple .rwd-table th,
+body.purple .rwd-table td {
+  background-color: #1b0542;
+}
+body.purple td {
+  color: #ffffff;
+}
+body.purple::-webkit-scrollbar-thumb {
+  background: #250758;
+}
+body.purple .card {
+  background-color: #5a189a;
+}
+body.bone {
+  font-family: "bone";
+}
+body.bone h1,
+body.bone h2,
+body.bone h3,
+body.bone a,
+body.bone h4,
+body.bone h5 {
+  color: #ffffff;
+  font-family: "bone";
+}
+body.bone .native,
+body.bone #randomtext,
+body.bone .navtext {
+  color: #fff; /* Adjust colors for blue theme */
+  font-family: "bone";
+}
+body.bone #randomText {
+  color: #fff;
+  font-family: "bone";
+}
+body.bone #themeSelect,
+body.bone #premadecloaks {
+  background-color: #ffffff; /* Adjust background color for blue theme */
+  color: #000;
+  font-family: "bone";
+}
+body.bone .button,
+body.bone input:checked + .slider {
+  background-color: #ffffff; /* Adjust background color for blue theme */
+  color: #000; /* Text color for blue theme */
+  font-family: "bone";
+}
+body.bone {
+  background: #000000;
+}
+body.bone .navbar a:hover {
+  background-color: #ffffff; /* Adjust navbar link hover background color for blue theme */
+}
+body.bone input[type="settings"]:focus {
+  border-color: white;
+  box-shadow: 0 0 8px 0 white;
+}
+body.bone #searchBar {
+  font-family: "bone";
+}
+body.bone .rwd-table a {
+  color: #ffffff;
+}
+body.bone .rwd-table th,
+body.bone .rwd-table td {
+  background-color: rgb(22, 22, 22);
+}
+body.bone td {
+  color: #ffffff;
+}
+body.bone::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+body.bone .card {
+  background-color: #000;
+}
+
+body.craft {
+  background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3d/Dirt_%28texture%29_JE2_BE2.png"); /* Replace with your image path */
+  background-size: auto; /* This will maintain the image's original size */
+  background-repeat: repeat; /* This will make the image repeat */
+  background-position: top left; /* This will start the image from the top left corner */
+}
+
+body.craft .navbar a:hover,
+body.craft button,
+body.craft select,
+body.craft input:checked + .slider {
+  background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a7/Cobblestone_%28texture%29_JE5_BE3.png");
+  background-color: transparent;
+}
+body.craft .native,
+body.craft #randomtext,
+body.craft .navtext {
+  color: #69a93f; /* Adjust colors for blue theme */
+}
